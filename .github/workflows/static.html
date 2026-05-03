@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Creatieve Wereld</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #f45b00; /* Etsy oranje */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1max));
+            gap: 20px;
+            margin-top: 3rem;
+        }
+        .item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welkom op mijn creatieve plek</h1>
+    <p>Handgemaakte items & unieke ontwerpen</p>
+</header>
+
+<div class="container">
+    <h2>Over mij</h2>
+    <p>Hier kun je kort vertellen wie je bent en wat je passie is. Of het nu gaat om digitale prints, sieraden of kunst!</p>
+    
+    <!-- Pas de link hieronder aan naar jouw Etsy shop -->
+    <a href="https://www.etsy.com" class="btn" target="_blank">Bezoek mijn Etsy Shop</a>
+
+    <div class="gallery">
+        <div class="item">
+            <h3>Project 1</h3>
+            <p>Beschrijving van je mooiste creatie.</p>
+        </div>
+        <div class="item">
+            <h3>Project 2</h3>
+            <p>Iets anders leuks dat je hebt gemaakt.</p>
+        </div>
+        <div class="item">
+            <h3>Project 3</h3>
+            <p>Binnenkort beschikbaar!</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
